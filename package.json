@@ -1,0 +1,24 @@
+{
+  "name": "sveltest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build --no-source-maps src/index.html",
+    "clean": "rm -rf .cache && rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-purgecss": "^2.1.3",
+    "parcel-plugin-svelte": "^4.0.5",
+    "purgecss-from-svelte": "^2.0.2",
+    "svelte": "^3.16.5"
+  }
+}
